@@ -120,9 +120,9 @@
 
 
 
-                                    <button ID="btnFiltrado" class="btn btn-success w-50 m-2" runat="server"  OnClick="btnFiltrado_Click" > Buscar</button>
+                                    <button ID="btnFiltrado" class="btn btn-success w-100 m-2" runat="server"  OnClick="btnFiltrado_Click" > Buscar</button>
 
-                                    <button ID="btnBorrarFiltrado" class="btn btn-danger w-50 m-2" runat="server"  OnClick="btnBorrarFiltrado_Click" >Borrar Filtrado</button>
+                                    <button ID="btnBorrarFiltrado" class="btn btn-danger w-100 m-2" runat="server"  OnClick="btnBorrarFiltrado_Click" >Borrar Filtrado</button>
 
                                 </div>
                             </div>
@@ -468,125 +468,182 @@
 
             </div>
 
-            <div class="container">
-                <div class="table-responsive">
-                    <table class="table table-striped  ">
-                        <thead class="text-center">
-                            <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">Matricula</th>
-                                <th scope="col">Prestador Servicio</th>
-                                <th scope="col">Edad</th>
-                                <th scope="col">Programa Eduactivo</th>
-                                <th scope="col">Area Laboral</th>
-                                <th scope="col">Contacto</th>
-                                <th scope="col">Accion</th>
-
-
-                            </tr>
-                        </thead>
-
-                        <tbody class="">
-                            <tr class="text-center">
-                                <th scope="row">1</th>
-                                <td>1904203</td>
-                                <td>Daniel Eduardo Rojas Garza</td>
-                                <td>20</td>
-                                <th>LTI EGRESADO</th>
-                                <th>Imagen Institucional: En Linea (2:00pm a 6:00pm)</th>
-                                <th>danielerojas2002@gmail.com</th>
-                                <th class="d-flex justify-content-around align-items-center">
-
-                                    <div class="m-2">
-                                        <a href="/ADMINISTRADOR/LIBRO/verlibro.html" class="btn btn-info text-light text-center ">
-                                            <i class="bi bi-eye-fill text-light m-2"></i>
-                                            Ver
-                                        </a>
-
-                                    </div>
-
-                                    <div class="m-2">
-                                        <a href="/ADMINISTRADOR/LIBRO/modificarlibro.html" class="btn btn-success text-center ">
-                                            <i class="bi bi-pencil-fill text-light m-2"></i>
-                                            Modificar
-                                        </a>
-
-                                    </div>
-
-                                    <div class="m-2">
-                                        <a href="/ADMINISTRADOR/LIBRO/eliminarlibro.html" class="btn btn-danger text-center ">
-                                            <i class="bi bi-trash-fill text-light m-2"></i>
-                                            Eliminar
-                                        </a>
-
-                                    </div>
-
-
-                                </th>
-                            </tr>
-
-                            <tr class="text-center">
-                                <th scope="row">1</th>
-                                <td>1904203</td>
-                                <td>Daniel Eduardo Rojas Garza</td>
-                                <td>20</td>
-                                <th>LTI EGRESADO</th>
-                                <th>Imagen Institucional: En Linea (2:00pm a 6:00pm)</th>
-                                <th>danielerojas2002@gmail.com</th>
-                                <th class="d-flex justify-content-around align-items-center">
-
-                                    <div class="m-2">
-                                        <a href="/CRUD/ver.HTML" class="btn btn-info text-light text-center ">
-                                            <i class="bi bi-eye-fill text-light m-2"></i>
-                                            Ver
-                                        </a>
-
-                                    </div>
-
-                                    <div class="m-2">
-                                        <a href="/CRUD/modificar.html" class="btn btn-success text-center ">
-                                            <i class="bi bi-pencil-fill text-light m-2"></i>
-                                            Modificar
-                                        </a>
-
-                                    </div>
-
-                                    <div class="m-2">
-                                        <a href="/CRUD/eliminar.html" class="btn btn-danger text-center ">
-                                            <i class="bi bi-trash-fill text-light m-2"></i>
-                                            Eliminar
-                                        </a>
-
-                                    </div>
-
-
-
-
-                                </th>
-                            </tr>
-
-
-
-
-                        </tbody>
-
-
-                    </table>
-
-
-
-                </div>
-
+            <div class="container-fluid">
+       
                 <div class="row">
-                    <div class="col-12 text-end">
-                        <a href="#" class="btn btn-secondary text-center mt-3  mb-3">
-                            <i class="bi bi-file-earmark-excel text-light m-2"></i>
-                            Generar .xlsx
-                        </a>
+                    
+
+
+                    <div class="col-xl-3  col-lg-3 col-md-3 col-sm-12">
+                        <div class="card" >
+                            <img src="/img/logoelefante.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+
+                                <div class="row">
+                                    <div class="">
+                                        <a href="/ADMINISTRADOR/LIBRO/modificarlibro.html" class="btn btn-success text-center  w-100">
+                                            <i class="bi bi-pencil-fill text-light "></i>
+                                            Modificar
+                                        </a>
+                            
+                                    </div>
+
+                                    
+                                </div>
+
+                                <div class="row">
+                                    <div class="mt-2">
+                                        <a href="/ADMINISTRADOR/LIBRO/eliminarlibro.html" class="btn btn-danger text-center w-100 ">
+                                            <i class="bi bi-trash-fill text-light "></i>
+                                            Eliminar
+                                        </a>
+                            
+                                    </div>
+                                </div>
+                               
+                        
+                                
+                            </div>
+                        </div>
+                        
+                       
+
+                       
 
                     </div>
 
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                        <div class="card" >
+                            <img src="/img/logoelefante.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+
+                                <div class="row">
+                                    <div class="">
+                                        <a href="/ADMINISTRADOR/LIBRO/modificarlibro.html" class="btn btn-success text-center  w-100">
+                                            <i class="bi bi-pencil-fill text-light "></i>
+                                            Modificar
+                                        </a>
+                            
+                                    </div>
+
+                                    
+                                </div>
+
+                                <div class="row">
+                                    <div class="mt-2">
+                                        <a href="/ADMINISTRADOR/LIBRO/eliminarlibro.html" class="btn btn-danger text-center w-100 ">
+                                            <i class="bi bi-trash-fill text-light "></i>
+                                            Eliminar
+                                        </a>
+                            
+                                    </div>
+                                </div>
+                               
+                        
+                                
+                            </div>
+                        </div>
+                        
+                       
+
+                       
+
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                        <div class="card" >
+                            <img src="/img/logoelefante.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+
+                                <div class="row">
+                                    <div class="">
+                                        <a href="/ADMINISTRADOR/LIBRO/modificarlibro.html" class="btn btn-success text-center  w-100">
+                                            <i class="bi bi-pencil-fill text-light "></i>
+                                            Modificar
+                                        </a>
+                            
+                                    </div>
+
+                                    
+                                </div>
+
+                                <div class="row">
+                                    <div class="mt-2">
+                                        <a href="/ADMINISTRADOR/LIBRO/eliminarlibro.html" class="btn btn-danger text-center w-100 ">
+                                            <i class="bi bi-trash-fill text-light "></i>
+                                            Eliminar
+                                        </a>
+                            
+                                    </div>
+                                </div>
+                               
+                        
+                                
+                            </div>
+                        </div>
+                        
+                       
+
+                       
+
+                    </div>
+
+
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                        <div class="card" >
+                            <img src="/img/logoelefante.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+
+                                <div class="row">
+                                    <div class="">
+                                        <a href="/ADMINISTRADOR/LIBRO/modificarlibro.html" class="btn btn-success text-center  w-100">
+                                            <i class="bi bi-pencil-fill text-light "></i>
+                                            Modificar
+                                        </a>
+                            
+                                    </div>
+
+                                    
+                                </div>
+
+                                <div class="row">
+                                    <div class="mt-2">
+                                        <a href="/ADMINISTRADOR/LIBRO/eliminarlibro.html" class="btn btn-danger text-center w-100 ">
+                                            <i class="bi bi-trash-fill text-light "></i>
+                                            Eliminar
+                                        </a>
+                            
+                                    </div>
+                                </div>
+                               
+                        
+                                
+                            </div>
+                        </div>
+                        
+                       
+
+                       
+
+                    </div>
                 </div>
+
+                
+
+
+                
 
             </div>
 
