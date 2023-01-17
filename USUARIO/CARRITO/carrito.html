@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Ver</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+
+
+    <header class="">
+        <nav class="navbar navbar-expand-lg bg-danger">
+            <div class="container-fluid">
+
+           
+             
+              <a class="navbar-brand text-light" href="#">Tienda FACPYA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  
+
+                    <li class="nav-item">
+                        <a class=" btn  text-light" href="/USUARIO/index.html">Libros</a>
+                      </li>
+
+                    <li class="nav-item">
+                        <a class=" btn  text-light" href="/USUARIO/carrito.html">Carrito</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class=" btn  text-light" href="/USUARIO/perfil.html">Perfil</a>
+                    </li>
+                   
+                    
+                </ul>
+                <div class="d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+                        <li class="nav-item">
+                            <a class=" btn  text-light" href="#">Cerrar Sesion</a>
+                        </li>
+                       
+                
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+
+    <main class="main container-fluid g-0 mt-5  ">
+
+
+
+      
+ 
+
+        <div class="container">
+            <div class="row card border-primary m-2">
+
+                <div class="col-12 card-body">
+
+                    <div class="">
+                        <div class="row">
+
+                            <div class="d-flex justify-content-left align-items-center">
+                                <i class="bi bi-eye-fill text-black m-2"></i>
+                                <h1 class="m-3">LISTADO DEL  CARRITO </h1>
+                            </div>
+                            <form method="post">
+
+                                <div class="card mb-3" >
+                                   
+                                   
+                                  
+                                    <div class="card-body">
+                                    
+                                    
+                                        <div class="container">
+                                            <div class="table-responsive">
+                                                <table class="table table-striped  ">
+                                                    <thead class="text-center">
+                                                        <tr>
+                                                            <th scope="col">#</th>
+                                                            <th scope="col">Libro</th>
+                                                            <th scope="col">Nombre</th>
+                                                            <th scope="col">Edad</th>
+                                                            <th scope="col">Programa Eduactivo</th>
+                                                            <th scope="col">CANTIDAD</th>
+                                                            <th scope="col">PRECIO</th>
+                                                            <th scope="col">Accion</th>
+                                
+                                
+                                                        </tr>
+                                                    </thead>
+                                
+                                                    <tbody class="">
+                                                        <tr class="text-center">
+                                                            <th scope="row">1</th>
+                                                            <td>1904203</td>
+                                                            <td>Daniel Eduardo Rojas Garza</td>
+                                                            <td>20</td>
+                                                            <th>LTI EGRESADO</th>
+                                                            <th>2</th>
+                                                            <th>$100</th>
+                                                            <th class="d-flex justify-content-around align-items-center">
+                                
+                                                                
+                                                                <div class="m-2">
+                                                                    <a href="/ADMINISTRADOR/CATEGORIA/modificarcategoria.html" class="btn btn-success text-center ">
+                                                                        <i class="bi bi-pencil-fill text-light m-2"></i>
+                                                                        Agregar 
+                                                                    </a>
+                                
+                                                                </div>
+                                
+                                                                <div class="m-2">
+                                                                    <a href="/ADMINISTRADOR/CATEGORIA/eliminarcategoria.html" class="btn btn-danger text-center ">
+                                                                        <i class="bi bi-trash-fill text-light m-2"></i>
+                                                                        Eliminar
+                                                                    </a>
+                                
+                                                                </div>
+                                
+                                
+                                                            </th>
+                                                        </tr>
+
+                                                        <tr class="text-center">
+                                                            <th scope="row">1</th>
+                                                            <td>1904203</td>
+                                                            <td>Daniel Eduardo Rojas Garza</td>
+                                                            <td>20</td>
+                                                            <th>LTI EGRESADO</th>
+                                                            <th>2</th>
+                                                            <th>$100</th>
+                                                            <th class="d-flex justify-content-around align-items-center">
+                                
+                                                                
+                                                                <div class="m-2">
+                                                                    <a href="/USUARIO/CARRITO/agregarcarrito.html" class="btn btn-success text-center ">
+                                                                        <i class="bi bi-pencil-fill text-light m-2"></i>
+                                                                        Agregar 
+                                                                    </a>
+                                
+                                                                </div>
+                                
+                                                                <div class="m-2">
+                                                                    <a href="/ADMINISTRADOR/CATEGORIA/eliminarcategoria.html" class="btn btn-danger text-center ">
+                                                                        <i class="bi bi-trash-fill text-light m-2"></i>
+                                                                        Eliminar
+                                                                    </a>
+                                
+                                                                </div>
+                                
+                                
+                                                            </th>
+                                                        </tr>
+                                
+                                
+                                                       
+                                                        
+                                
+                                
+                                
+                                                    </tbody>
+                                
+                                
+                                                </table>
+                                
+                                
+                                
+                                            </div>
+                                
+                                           
+                                
+                                        </div>
+
+                                    </div>
+                                   
+                              
+                                </div>
+                                <div class="modal-footer">
+
+                                    <a href="/USUARIO/CARRITO/carrito.html" class="btn btn-success" >
+                                        <i class="bi bi-trash-fill text-light m-2"></i>
+                                        Comprar</a>
+                                </div>
+
+                                
+                            </form>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>

@@ -26,16 +26,37 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  
-                <li class="nav-item">
-                  <a class=" btn  text-light" href="/index.html">Home</a>
-                </li>
-               
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 
-              </ul>
-              
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  
+
+                    <li class="nav-item">
+                        <a class=" btn  text-light" href="/USUARIO/index.html">Libros</a>
+                      </li>
+
+                    <li class="nav-item">
+                        <a class=" btn  text-light" href="/USUARIO/carrito.html">Carrito</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class=" btn  text-light" href="/USUARIO/perfil.html">Perfil</a>
+                    </li>
+                   
+                    
+                </ul>
+                <div class="d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+                        <li class="nav-item">
+                            <a class=" btn  text-light" href="#">Cerrar Sesion</a>
+                        </li>
+                       
+                
+                    </ul>
+                </div>
+              </div>
             </div>
           </nav>
     </header>
@@ -46,7 +67,8 @@
 
 
 
-  
+      
+ 
 
         <div class="container">
             <div class="row card border-primary m-2">
@@ -58,7 +80,7 @@
 
                             <div class="d-flex justify-content-left align-items-center">
                                 <i class="bi bi-eye-fill text-black m-2"></i>
-                                <h1 class="m-3">INICIAR SESION</h1>
+                                <h1 class="m-3">AGREGAR AL CARRITO </h1>
                             </div>
                             <form method="post">
 
@@ -69,7 +91,7 @@
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            
+                                            <h5 class="card-title">TITULO DEL LIBRO</h5>
                                             
 
                                             <div class="d-flex justify-content-around row">
@@ -85,7 +107,7 @@
                                                 </div>
 
                                                 <div class="form-group col  m-2">
-                                                    <label>Correo</label>
+                                                    <label>Matricula</label>
                                                     <input asp-for="Matricula" class="form-control" disabled>
                                             
                                                     <span class="text-black" asp-validation-for="Matricula"></span>
@@ -98,7 +120,7 @@
                                             
                                             
                                                 <div class="form-group col  m-2">
-                                                    <label>Contraseña</label>
+                                                    <label>Matricula</label>
                                                     <input asp-for="Matricula" class="form-control" disabled>
                                             
                                                     <span class="text-black" asp-validation-for="Matricula"></span>
@@ -111,23 +133,59 @@
                                             
                                             
                                                 <div class="form-group col  m-2">
-                                                    <label>Contraseña</label>
+                                                    <label>Matricula</label>
                                                     <input asp-for="Matricula" class="form-control" disabled>
                                             
                                                     <span class="text-black" asp-validation-for="Matricula"></span>
                                                 </div>
                                             </div>
 
-                                           
+                                            <div class="d-flex justify-content-around row">
+                                            
+                                            
+                                                <div class="form-group col  m-2">
+                                                    <label>Matricula</label>
+                                                    <input asp-for="Matricula" class="form-control" disabled>
+                                            
+                                                    <span class="text-black" asp-validation-for="Matricula"></span>
+
+                                                    
+                                                </div>
+
+                                                <div class="form-group col  m-2">
+                                                    <label>Matricula</label>
+                                                    <input asp-for="Matricula" class="form-control" disabled>
+                                            
+                                                    <span class="text-black" asp-validation-for="Matricula"></span>
+
+                                                    
+                                                </div>
+                                            </div>
+
+                                            <div class="d-flex justify-content-around row">
+                                            
+                                            
+                                                <div class="form-group col  m-2">
+                                                    <label>CANTIDAD de libros a comprar</label>
+                                                    <input asp-for="Matricula" class="form-control" disabled>
+                                            
+                                                    <span class="text-black" asp-validation-for="Matricula"></span>
+
+                                                    
+                                                </div>
+
+                                              
+                                            </div>
+
                                         </div>
                                     </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
 
-                                    <a href="/USUARIO/index.html"  class="btn btn-success" >
+                                    <a href="/USUARIO/CARRITO/carrito.html" class="btn btn-success" >
                                         <i class="bi bi-trash-fill text-light m-2"></i>
-                                        Iniciar Sesion</a>
+                                        Agregar al Carrito</a>
                                 </div>
 
                                 
@@ -144,6 +202,7 @@
             </div>
         </div>
     </main>
+
 
 
 
