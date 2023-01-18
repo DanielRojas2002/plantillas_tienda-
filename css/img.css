@@ -1,0 +1,16 @@
+
+:root {
+--max: 18rem
+}
+
+
+.card2 {
+width: var(--max)
+}
+
+.card2-img-top {
+width: 100%;
+max-width: var(--max);
+height: calc(var(--max));
+object-fit: cover;
+} 

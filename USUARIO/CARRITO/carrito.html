@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="/css/img.css">
 
 </head>
 
@@ -59,161 +60,192 @@
         </nav>
     </header>
 
+    <main class="main container g-0  ">
+        <div class="">
+            <div class=" ">     
+                <div class="row mt-3 mb-2">
+                    <div class="d-flex justify-content-left ">
+                        <i class="bi bi-eye-fill text-black m-2"></i>
+                        <h1 class="m-3">LISTADO DEL  CARRITO </h1>
+                    </div>
 
-    <main class="main container-fluid g-0  ">
-
-        <div class="container">
-            <div class="row card m-2">
-
-                <div class="col-12 card-body">
-
-                    <div class="">
-                        <div class="row">
-
-                            <div class="d-flex justify-content-left align-items-center">
-                                <i class="bi bi-eye-fill text-black m-2"></i>
-                                <h1 class="m-3">LISTADO DEL  CARRITO </h1>
+                    <div class=" col-xxl-3 col-xl-3  col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                        <div class="card card2 text-center  " >
+                            <div class="">
+                                <img src="/img/libro1.jpg" class="card2-img-top  " alt="...">
                             </div>
-                            <form method="post">
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
 
-                                <div class="card mb-3" >
-                                   
-                                   
-                                  
-                                    <div class="card-body">
-                                    
-                                    
-                                        <div class="container">
-                                            <div class="table-responsive">
-                                                <table class="table table-striped  ">
-                                                    <thead class="text-center">
-                                                        <tr>
-                                                            <th scope="col">#</th>
-                                                            <th scope="col">Libro</th>
-                                                            <th scope="col">Nombre</th>
-                                                            <th scope="col">Edad</th>
-                                                            <th scope="col">Programa Eduactivo</th>
-                                                            <th scope="col">CANTIDAD</th>
-                                                            <th scope="col">PRECIO</th>
-                                                            <th scope="col">Accion</th>
-                                
-                                
-                                                        </tr>
-                                                    </thead>
-                                
-                                                    <tbody class="">
-                                                        <tr class="text-center">
-                                                            <th scope="row">1</th>
-                                                            <td>1904203</td>
-                                                            <td>Daniel Eduardo Rojas Garza</td>
-                                                            <td>20</td>
-                                                            <th>LTI EGRESADO</th>
-                                                            <th>2</th>
-                                                            <th>$100</th>
-                                                            <th class="d-flex justify-content-around align-items-center">
-                                
-                                                                
-                                                                <div class="m-2">
-                                                                    <a href="/USUARIO/CARRITO/agregarcarrito.html" class="btn btn-success text-center ">
-                                                                        <i class="bi bi-pencil-fill text-light m-2"></i>
-                                                                        Agregar  
-                                                                    </a>
-                                
-                                                                </div>
-                                
-                                                                <div class="m-2">
-                                                                    <a href="#" class="btn btn-danger text-center ">
-                                                                        <i class="bi bi-trash-fill text-light m-2"></i>
-                                                                        Eliminar
-                                                                    </a>
-                                
-                                                                </div>
-                                
-                                
-                                                            </th>
-                                                        </tr>
+                                <div class="m-2">
+                                    <a href="/USUARIO/CARRITO/agregarcarrito.html" class="btn btn-success text-center w-100 h-100 ">
+                                        <i class="bi bi-pencil-fill text-light m-2"></i>
+                                        Agregar  
+                                    </a>
 
-                                                        <tr class="text-center">
-                                                            <th scope="row">1</th>
-                                                            <td>1904203</td>
-                                                            <td>Daniel Eduardo Rojas Garza</td>
-                                                            <td>20</td>
-                                                            <th>LTI EGRESADO</th>
-                                                            <th>2</th>
-                                                            <th>$100</th>
-                                                            <th class="d-flex justify-content-around align-items-center">
-                                
-                                                                
-                                                                <div class="m-2">
-                                                                    <a href="/USUARIO/CARRITO/agregarcarrito.html" class="btn btn-success text-center ">
-                                                                        <i class="bi bi-pencil-fill text-light m-2"></i>
-                                                                        Agregar 
-                                                                    </a>
-                                
-                                                                </div>
-                                
-                                                                <div class="m-2">
-                                                                    <a href="#" class="btn btn-danger text-center ">
-                                                                        <i class="bi bi-trash-fill text-light m-2"></i>
-                                                                        Eliminar
-                                                                    </a>
-                                
-                                                                </div>
-                                
-                                
-                                                            </th>
-                                                        </tr>
-                                
-                                
-                                                       
-                                                        
-                                
-                                
-                                
-                                                    </tbody>
-                                
-                                
-                                                </table>
-                                
-                                
-                                
-                                            </div>
-                                
-                                           
-                                
-                                        </div>
-
-                                    </div>
-                                   
-                              
                                 </div>
-                                <div class="modal-footer">
 
-                                    <a href="/USUARIO/COMPRA/comprar.html" class="btn btn-success" >
+                                <div class="m-2">
+                                    <a href="#" class="btn btn-danger text-center w-100 h-100 ">
                                         <i class="bi bi-trash-fill text-light m-2"></i>
-                                        Comprar</a>
+                                        Eliminar
+                                    </a>
+
+                                </div>
+                               
+                        
+                                
+                            </div>
+                        </div>
+                        
+                       
+
+                       
+
+                    </div>
+
+                    <div class=" col-xxl-3 col-xl-3  col-lg-4 col-md-6 col-sm-12 mb-4  ">
+                        <div class="card card2 text-center"  >
+                            <div class="">
+                                <img src="/img/libro2.jpg" class="card2-img-top  " alt="...">
+                            </div>
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+
+                                <div class="m-2">
+                                    <a href="/USUARIO/CARRITO/agregarcarrito.html" class="btn btn-success text-center w-100 h-100 ">
+                                        <i class="bi bi-pencil-fill text-light m-2"></i>
+                                        Agregar  
+                                    </a>
+
                                 </div>
 
-                                
-                            </form>
+                                <div class="m-2">
+                                    <a href="#" class="btn btn-danger text-center w-100 h-100 ">
+                                        <i class="bi bi-trash-fill text-light m-2"></i>
+                                        Eliminar
+                                    </a>
 
+                                </div>
+                               
+                        
+                                
+                            </div>
                         </div>
+                        
+                       
+
+                       
+
+                    </div>
+
+                    <div class=" col-xxl-3 col-xl-3  col-lg-4 col-md-6 col-sm-12 mb-4 ">
+                        <div class="card card2 text-center"  >
+                            <div class="">
+                                <img src="/img/libro3.jpg" class="card2-img-top  " alt="...">
+                            </div>
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
+
+                                <div class="m-2">
+                                    <a href="/USUARIO/CARRITO/agregarcarrito.html" class="btn btn-success text-center w-100 h-100 ">
+                                        <i class="bi bi-pencil-fill text-light m-2"></i>
+                                        Agregar  
+                                    </a>
+
+                                </div>
+
+                                <div class="m-2">
+                                    <a href="#" class="btn btn-danger text-center w-100 h-100 ">
+                                        <i class="bi bi-trash-fill text-light m-2"></i>
+                                        Eliminar
+                                    </a>
+
+                                </div>
+                               
+                        
+                                
+                            </div>
+                        </div>
+                        
+                       
+
+                       
 
                     </div>
 
 
+                    <div class=" col-xxl-3 col-xl-3  col-lg-4 col-md-6 col-sm-12  mb-4">
+                        <div class="card card2 text-center"  >
+                            <div class="">
+                                <img src="/img/libro4.jpg" class="card2-img-top  " alt="...">
+                            </div>
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.</p>
 
+                                <div class="m-2">
+                                    <a href="/USUARIO/CARRITO/agregarcarrito.html" class="btn btn-success text-center w-100 h-100 ">
+                                        <i class="bi bi-pencil-fill text-light m-2"></i>
+                                        Agregar  
+                                    </a>
+
+                                </div>
+
+                                <div class="m-2">
+                                    <a href="#" class="btn btn-danger text-center w-100 h-100 ">
+                                        <i class="bi bi-trash-fill text-light m-2"></i>
+                                        Eliminar
+                                    </a>
+
+                                </div>
+                               
+                        
+                                
+                            </div>
+                        </div>
+                        
+                       
+
+                       
+
+                    </div>
+                    
+
+                    
                 </div>
 
-            </div>
-        </div>
+                <div class="modal-footer w-100 h-100">
+    
+                    <a href="/USUARIO/COMPRA/comprar.html" class="btn btn-success text-center  w-100 h-100" >
+                        <i class="bi bi-trash-fill text-light m-2"></i>
+                        COMPRAR</a>
+                </div>
 
-      
+
+                
+
+
+                
+
+            </div>
 
             
 
 
     </main>
+
 
 </body>
 
